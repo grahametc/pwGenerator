@@ -1,0 +1,50 @@
+h1{
+    color:blue;
+    font-family:"Space Mono", monospace;
+    text-align: center;
+}
+body{
+    background-color:#001f2c ;
+}
+div.form {
+display: block;
+text-align: center;
+margin-top: 200px ;
+width: 100%;
+}
+form{
+    font-family:"Space Mono", monospace ;
+    color:blue;
+     
+}
+div.button{
+    margin-top: 50px;
+    text-align: center;
+}
+button{
+    text-align: center;
+    background-color: #000102;
+    color:blue;
+    font-family:"Space Mono", monospace;
+    font: 200px;
+    border-radius: 50px;
+    border-color: #000102;
+}
+
+div.sliderContainer{
+    width: 95%;
+    margin: 3%;
+    position: relative;
+    color: blue;
+    text-align: center;
+    font-family:"Space Mono", monospace;
+}
+div.strength{
+    width: 95%;
+    margin: 3%;
+    position: relative;
+    color: blue;
+    text-align: center;
+    font-family:"Space Mono", monospace; 
+    font: 300px;
+}

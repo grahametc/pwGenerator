@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <h1>Password Generator</h1>
+<div class = "form">
+    <form id = "theForm">
+            <label for="pword">Enter Password:</label>
+            <input type ="text" maxLength = "20" id="pword" name = "pword" value = '' placeholder = "Password">
+
+    </form>
+    </div>
+    <div class ="button">
+      <button type ="button">Get Random Password</button>  
+    </div>
+    <div class = "sliderContainer">
+        <input type = "range" min="8" max="20" value="8" id = "slideRange" class = "slider">
+        <p>Length: <span id = "slideLength"></span></p>
+    </div>
+    <div class = "strength">
+        <p>Strength: <span id = "passwordStrength">Weak</span></p>
+    </div>
+  <script src="passwordGenerator.js"></script>  
+  
+</body>
+</html>
